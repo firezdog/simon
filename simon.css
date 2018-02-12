@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.row {
+    line-height: 0px;
+}
+
+.ui {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    line-height: 20px;
+}
+
+.gamebox {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    border: 3px solid black;
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: blue;
+}
+
+
+#box3 {
+    background-color: green;
+}
+
+#box4 {
+    background-color: yellow;
+}

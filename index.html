@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon Game</title>
+    <link rel="stylesheet" type="text/css" href="simon.css">
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Simon Game</h1>
+        </div>
+        <div class="row">
+            <h2>Count:<span id="count">1</span>
+        </div>
+        <div class="row ui">
+            <button>Start</button><input type="checkbox">Strict</button>
+        </div>
+        <div class="row">
+            <div class = "gamebox" id="box1"></div><div class = "gamebox" id="box2"></div>
+        </div>
+        <div class="row">
+            <div class = "gamebox" id="box3"></div><div class = "gamebox" id="box4"></div>
+        </div>
+    </div>
+    <script src="simon.js"></script>
+</body>
+</html>
